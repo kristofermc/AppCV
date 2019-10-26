@@ -1,9 +1,56 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- Portfolio Tab --> 
 
-<ion-content></ion-content>
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        Portfolio
+      </ion-title>
+    </ion-toolbar>
+    </ion-header>
+  
+    <ion-content>
+      <ion-list>
+        <ion-list-header>Portfolio</ion-list-header>
+
+          <ion-card>
+            <ion-card-content>
+                <p class="center" style="font-size: 25px;" absolute-drag>
+              This app is a very good example of some of the work I have done in Mobile Application Development!
+                  </p>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+            <ion-card-content>
+        <ion-header class="center" style="font-size: 30px;" absolute-drag>
+        <b>Recording projects</b><br><br>
+        </ion-header> 
+        <!--Album image-->
+        <img src="../assets/img/ps-bird.jpg">
+        <p class="center" style="font-size: 25px;" absolute-drag>
+        <b>Perihelion Ship - To paint a Bird of Fire</b> <br></p>
+        <p class="center" style="font-size: 20px;" absolute-drag>
+        Co-producer and Engineer<br><br></p>
+         <!--Button to external link-->
+        <ion-button color="secondary" class="center" href="https://perihelionship.bandcamp.com/album/to-paint-a-bird-of-fire">
+        Listen</ion-button>
+        <br><br>
+        <!--Album image-->
+        <img src="../assets/img/mang-hands.jpg">
+        <p class="center" style="font-size: 25px;" absolute-drag>
+        <b>Mangled Hands - Erase You</b> <br></p>
+        <p class="center" style="font-size: 20px;" absolute-drag>
+        Recording, Mixing and Mastering<br><br></p>
+        <!--Button to external link-->
+        <ion-button color="secondary" class="center" href="https://mangledhands.bandcamp.com/album/erase-you">
+          Listen</ion-button>
+        <br><br>
+      </ion-card-content>
+    </ion-card>
+
+      </ion-list>
+
+    </ion-content>
